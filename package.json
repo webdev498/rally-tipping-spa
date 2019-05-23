@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack -d --watch"
+    "start": "webpack -d --watch",
+    "build": "webpack -p",
+    "heroku-postbuild": "webpack -p"
   },
   "keywords": [],
   "author": "",
