@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Sohne-Leicht';
+  src: url('Sohne-Leicht.woff') format('woff'),
+       url('Sohne-Leicht.ttf') format('truetype'),
+       url('Sohne-Leicht.svg#Sohne-Leicht') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SöhneApp-Leicht';
+  src: url('SöhneApp-Leicht.eot');
+  src: url('SöhneApp-Leicht.woff2') format('woff2'),
+       url('SöhneApp-Leicht.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Söhne-Halbfett';
+    src: url('assets/fonts/Sohne-Halbfett/SöhneApp-Halbfett.eot') format('eot'),
+         url('assets/fonts/Sohne-Halbfett/Sohne-Halbfett.woff') format('woff'),
+         url('assets/fonts/Sohne-Halbfett/SöhneApp-Halbfett.woff2') format('woff2'),
+         url('assets/fonts/Sohne-Halbfett/Sohne-Halbfett.ttf') format('truetype'),
+         url('assets/fonts/Sohne-Halbfett/Söhne-Halbfett.otf') format('otf'),
+         url('assets/fonts/Sohne-Halbfett/Sohne-Halbfett.svg') format('svg');
+         font-weight: normal;
+         font-style: normal;
+}
+@font-face {
+    font-family: 'SöhneApp-Mager';
+    src: url('assets/fonts/Sohne-Mager/Sohne-Mager.ttf') format('truetype'),        
+         url('assets/fonts/Sohne-Mager/Sohne-Mager.woff') format('woff'),
+         url('assets/fonts/Sohne-Mager/Sohne-Mager.svg') format('svg'),
+         url('assets/fonts/Sohne-Mager/SöhneApp-Mager.woff2') format('woff2'),
+         url('assets/fonts/Sohne-Mager/SöhneApp-Mager.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SöhneApp-Leicht';
+    src: url('assets/fonts/Sohne-Leicht/SöhneApp-Leicht.eot') format('eot'),
+         url('assets/fonts/Sohne-Leicht/Sohne-Leicht.woff') format('woff'),
+         url('assets/fonts/Sohne-Leicht/SöhneApp-Leicht.woff2') format('woff2'),
+         url('assets/fonts/Sohne-Leicht/Sohne-Leicht.ttf') format('truetype'),         
+         url('assets/fonts/Sohne-Leicht/Sohne-Leicht.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+

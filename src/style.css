@@ -1,0 +1,404 @@
+@charset "UTF-8";
+
+@import 'font.css';
+/*#FCB415 yellow */
+/*#30302F extra dark yellow */
+/*#324A9C blue */
+/*#E00D27 red */
+/* Söhne-Halbfett Bold */
+/* SöhneApp-Mager Medium */
+/* SöhneApp-Leicht Light */
+/* line 25, ../sass/partial/_variables.scss */
+.heading, .heading-3, .heading-4, .label-1, .label-3, .label-5, .box__yellow .boxyellow__item, .header, .header__heading .headerheading__item:nth-child(1), .selectamount .amount__circle .amountCircle, .footer .footer__copy.footer__copy_1, .youdriver .youdriver-head, .chooseamount .chooseamount__header, .chooseamount .chooseamount__detail > input, .chooseamount .chooseamount__detail { font-family: "Söhne-Halbfett"; }
+
+/* line 28, ../sass/partial/_variables.scss */
+.heading-1, .label-2, .label-4, .textarea, .selectamount.selectamount-1 .amount__circle .amountCircle, .chooseamount .chooseamount__footer .button, .forgoturtip .button--full { font-family: "SöhneApp-Mager"; }
+
+/* line 31, ../sass/partial/_variables.scss */
+.chosse { font-family: "SöhneApp-Leicht"; }
+
+/* line 1, ../sass/partial/_typography.scss */
+* { -webkit-box-sizing: border-box; box-sizing: border-box; outline: none; text-decoration: none; }
+
+/* line 3, ../sass/partial/_typography.scss */
+a { color: black; cursor: pointer; }
+
+/* line 6, ../sass/partial/_typography.scss */
+.wrapper:after, .wrapper:before { content: ''; clear: both; }
+
+/* line 7, ../sass/partial/_typography.scss */
+body, ul, h1, h2, h3, h4, label { font-weight: normal; }
+
+/* line 8, ../sass/partial/_typography.scss */
+body { font-family: "SöhneApp-Leicht"; }
+
+/* line 9, ../sass/partial/_typography.scss */
+html, body { height: 100%; }
+
+/* line 10, ../sass/partial/_typography.scss */
+body, ul, h1, h2, h3, h4, label { padding: 0px; margin: 0; list-style: none; }
+
+/* line 13, ../sass/partial/_typography.scss */
+.align-center { text-align: center; }
+
+/* line 14, ../sass/partial/_typography.scss */
+.align-right { text-align: right; }
+
+/* line 15, ../sass/partial/_typography.scss */
+.align-left { text-align: left; }
+
+/* line 17, ../sass/partial/_typography.scss */
+* { position: relative; }
+
+/* line 18, ../sass/partial/_typography.scss */
+.button.button--icon:before, .youdriver__list .form__checkbox input:checked + span:before, .circle-line:before, .overlaypopup-stage { position: absolute; }
+
+/* line 19, ../sass/partial/_typography.scss */
+.header.sticky, .overlaypopup, .overlaypopup-overlay { position: fixed; }
+
+/* line 20, ../sass/partial/_typography.scss */
+.youdriver__list .form__checkbox span, .youdriver__list .form__checkbox div { float: left; }
+
+/* line 23, ../sass/partial/_typography.scss */
+.wrapper:after, .wrapper:before, .youdriver__list .form__checkbox, .youdriver__list .form__checkbox span, .header img, .footer .footer__copy img { display: block; }
+
+/* line 24, ../sass/partial/_typography.scss */
+.button, .button-group, .box__yellow .boxyellow__item, .header, .selectamount .amount__circle .amountCircle, .footer .footer__copy, .footer .footer__link, .footer .footer__social, .footer .footer__app, .youdriver__list .youdriver__detail, .youdriver__list .youdriverdl, .center, .box__yellow, .rate .rate__item, .selectamount .amount__circle, .footer, .footer .footer__link .footerlink__item, .overlaypopup-stage .overlaypopup-footer, .youdriver .overlaypopup-stage .overlaypopup-body, .youdriver__list .youdriver__item { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+/* line 26, ../sass/partial/_typography.scss */
+.button, .rate .rate__item--stars .rate__star { cursor: pointer; }
+
+/* line 28, ../sass/partial/_typography.scss */
+.wrapper--height { height: 100%; }
+
+/* line 32, ../sass/partial/_typography.scss */
+.button.button--thin, .footer .footer__link .footerlink__item { font-size: 12px; }
+
+/* line 34, ../sass/partial/_typography.scss */
+.button, .label-4, .header { font-size: 14px; }
+
+/* line 36, ../sass/partial/_typography.scss */
+.label-5 { font-size: 16px; }
+
+/* line 37, ../sass/partial/_typography.scss */
+.label-2, .textarea { font-size: 18px; }
+
+/* line 38, ../sass/partial/_typography.scss */
+.heading-4, .label-3, .overlaypopup-stage .overlaypopup-header { font-size: 20px; }
+
+/* line 39, ../sass/partial/_typography.scss */
+.heading-1, .label-1 { font-size: 22px; }
+
+/* line 43, ../sass/partial/_typography.scss */
+.heading-3, .header__heading .headerheading__item:nth-child(2), .youdriver .youdriver-head { font-size: 30px; }
+
+/* line 44, ../sass/partial/_typography.scss */
+.heading { font-size: 40px; }
+
+/* line 46, ../sass/partial/_typography.scss */
+.underline { text-decoration: underline !important; }
+/* line 48, ../sass/partial/_typography.scss */
+.underline:hover { text-decoration: underline !important; }
+
+/* line 56, ../sass/partial/_typography.scss */
+.button { -webkit-transition: all .2s linear; transition: all .2s linear; }
+
+/* line 60, ../sass/partial/_typography.scss */
+.button { background-color: #E3E3E3; color: rgba(0, 0, 0, 0.386464); border: 0; height: 45px; padding: 0px 15px; min-width: 80px; font-size: 16px; border-radius: 6px; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+/* line 67, ../sass/partial/_typography.scss */
+.button img { margin: 0px 4px; }
+/* line 70, ../sass/partial/_typography.scss */
+.button:hover { background-color: #e6e6e6; }
+/* line 72, ../sass/partial/_typography.scss */
+.button.button--add { height: 37px; border: 1px solid #d1d1d1; background: #30302F; color: white; font-family: "Söhne-Halbfett"; min-width: 40px; }
+/* line 73, ../sass/partial/_typography.scss */
+.button.button--add:focus { background: #FCB415; color: #30302F; }
+/* line 77, ../sass/partial/_typography.scss */
+.button.button--one { border: 0px solid #d1d1d1; background: white; }
+/* line 78, ../sass/partial/_typography.scss */
+.button.button--second { background-color: #30302F; color: #FCB415; }
+/* line 79, ../sass/partial/_typography.scss */
+.button.button--second:hover { background-color: #090909; }
+/* line 81, ../sass/partial/_typography.scss */
+.button.button--third { background-color: #FCB415; padding-left: 25px; padding-right: 25px; color: black; }
+/* line 84, ../sass/partial/_typography.scss */
+.button.button--third:hover { background-color: #f4a903; }
+/* line 86, ../sass/partial/_typography.scss */
+.button.button--icon { padding-left: 45px; }
+/* line 87, ../sass/partial/_typography.scss */
+.button.button--icon:before { content: ''; z-index: 9999; left: 15px; top: 0; bottom: 0; margin: auto; width: 0px; height: 0px; background-repeat: no-repeat; }
+/* line 89, ../sass/partial/_typography.scss */
+.button.button--thin { padding: 0 10px; min-width: auto; height: 20px; }
+/* line 90, ../sass/partial/_typography.scss */
+.button.button--thin:before { left: 10px; }
+/* line 92, ../sass/partial/_typography.scss */
+.button.button--full { width: 300px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; border-radius: 0px; }
+
+/* line 99, ../sass/partial/_typography.scss */
+.button-group .button:nth-child(1) { border-top-right-radius: 0px; border-bottom-right-radius: 0px; }
+/* line 100, ../sass/partial/_typography.scss */
+.button-group .button:nth-child(2) { border-top-left-radius: 0px; border-bottom-left-radius: 0px; }
+
+/* line 104, ../sass/partial/_typography.scss */
+.youdriver__list .form__checkbox input { display: none; }
+/* line 105, ../sass/partial/_typography.scss */
+.youdriver__list .form__checkbox span { width: 15px; height: 15px; background-color: transparent; border: 2px solid #404040; padding: 2px; border-radius: 50px; margin-right: 5px; }
+/* line 106, ../sass/partial/_typography.scss */
+.youdriver__list .form__checkbox input:checked + span { border: 2px solid #404040; }
+/* line 107, ../sass/partial/_typography.scss */
+.youdriver__list .form__checkbox input:checked + span:before { content: ''; background-color: #404040; width: 7px; height: 7px; border-radius: 50px; }
+/* line 108, ../sass/partial/_typography.scss */
+.youdriver__list .form__checkbox div { font-size: 16px; }
+.youdriver__list .form__checkbox { cursor: pointer; }
+/* line 136, ../sass/partial/_typography.scss */
+.circle-line:before { content: ''; width: 2px; top: 25px; bottom: 25px; left: 70px; background-color: #999999; }
+
+/* line 138, ../sass/partial/_typography.scss */
+.searchbox { background: #F8F8F8 url("../images/icons/search-icon.png") no-repeat 10px center; width: 100%; height: 40px; border-radius: 3px; border: 0px; padding-left: 40px; }
+
+/* line 164, ../sass/partial/_typography.scss */
+.heading { text-align: center; }
+/* line 168, ../sass/partial/_typography.scss */
+.heading span { color: #FCB415; }
+
+/* line 172, ../sass/partial/_typography.scss */
+.heading-30 { font-size: 30px; }
+
+/* line 176, ../sass/partial/_typography.scss */
+.heading-1 { text-align: center; line-height: 28px; }
+
+/* line 182, ../sass/partial/_typography.scss */
+.heading-3 { text-align: left; line-height: 50px; padding-bottom: 10px; }
+/* line 188, ../sass/partial/_typography.scss */
+.heading-3:after { content: ''; height: 4px; width: 50px; background-color: #FCB415; position: absolute; bottom: 0; left: 0; }
+/* line 197, ../sass/partial/_typography.scss */
+.heading-3.heading-3-1 { padding-top: 15px; padding-bottom: 0px; }
+/* line 200, ../sass/partial/_typography.scss */
+.heading-3.heading-3-1:after { display: none; }
+/* line 203, ../sass/partial/_typography.scss */
+.heading-3.heading-3-1:before { content: ''; height: 4px; width: 50px; background-color: #FCB415; position: absolute; top: 0; }
+/* line 211, ../sass/partial/_typography.scss */
+.heading-3.heading-3-1 span { color: #FCB415; }
+
+/* line 217, ../sass/partial/_typography.scss */
+.heading-4 { text-align: center; line-height: normal; }
+
+/* line 223, ../sass/partial/_typography.scss */
+.label-1 { line-height: 25px; }
+
+/* line 228, ../sass/partial/_typography.scss */
+.label-3 { line-height: 25px; }
+
+/* line 233, ../sass/partial/_typography.scss */
+.label-2 { line-height: normal; color: black; }
+
+/* line 239, ../sass/partial/_typography.scss */
+.label-4 { line-height: 18px; color: #252525; }
+
+/* line 245, ../sass/partial/_typography.scss */
+.label-5 { line-height: 21px; color: #252525; }
+
+/* line 251, ../sass/partial/_typography.scss */
+.label-6 { font-size: 17px; }
+
+/* line 254, ../sass/partial/_typography.scss */
+.box__yellow .boxyellow__item, .header, .selectamount .amount__circle .amountCircle, .footer .footer__copy, .footer .footer__link, .footer .footer__social, .footer .footer__app, .youdriver__list .youdriver__detail, .youdriver__list .youdriverdl, .center { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+/* line 259, ../sass/partial/_typography.scss */
+.space { height: 20px; }
+
+/* line 262, ../sass/partial/_typography.scss */
+.box__yellow { padding: 0px 20px; min-height: 88px; border: 3px solid #FCB415; border-radius: 5px; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+/* line 269, ../sass/partial/_typography.scss */
+.box__yellow .boxyellow__item { line-height: 10px; }
+/* line 274, ../sass/partial/_typography.scss */
+.box__yellow .boxy { line-height: normal; }
+/* line 276, ../sass/partial/_typography.scss */
+.box__yellow .boxy span { color: #FCB415; }
+
+/* line 281, ../sass/partial/_typography.scss */
+.textarea { border-radius: 5px; border: 1px solid #797979; background: rgba(239, 239, 244, 0.5); width: 100%; height: 115px; padding: 15px; line-height: 23px; color: #8A8A8F; }
+
+/* line 291, ../sass/partial/_typography.scss */
+.textarea .textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */ opacity: 1; color: #C3C3C3; }
+
+/* line 295, ../sass/partial/_typography.scss */
+.textarea::-moz-placeholder { /* Firefox 19+ */ opacity: 1; color: #C3C3C3; }
+
+/* line 298, ../sass/partial/_typography.scss */
+.textarea:-ms-input-placeholder { /* IE 10+ */ opacity: 1; color: #C3C3C3; }
+
+/* line 301, ../sass/partial/_typography.scss */
+.textarea:-moz-placeholder { /* Firefox 18- */ opacity: 1; color: #C3C3C3; }
+
+/*---- Mozila Firefox --------*/
+@-moz-document url-prefix() {}
+@media screen and (-webkit-min-device-pixel-ratio: 0) { /* Safari and Chrome */
+  /* Safari only override */ }
+/* line 21, ../sass/partial/_crossBrowser.scss */
+select::-ms-expand { display: none; }
+
+/* line 10, ../sass/main.scss */
+.content { padding: 25px 15px; max-width: 500px; margin: 85px auto 0 auto; }
+/* line 14, ../sass/main.scss */
+.content.content1 { margin: 0; padding: 25px 0px; }
+
+/* line 2, ../sass/pages/header.scss */
+.header { height: 85px; background: url("../images/header-bg.jpg"); color: white; line-height: 10px; }
+/* line 3, ../sass/pages/header.scss */
+.header.header2 { background: url("../images/header-bg-2.png"); height: 300px; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; position: relative; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+/* line 23, ../sass/pages/header.scss */
+.header.sticky { top: 0; right: 0; left: 0; z-index: 9; }
+
+/* line 31, ../sass/pages/header.scss */
+.header__heading { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; padding: 50px 0 0 10px; }
+/* line 37, ../sass/pages/header.scss */
+.header__heading .headerheading__item:nth-child(1) { font-size: 80px; height: 70px; color: #fff; }
+/* line 42, ../sass/pages/header.scss */
+.header__heading .headerheading__item:nth-child(2) { color: #FCB415; }
+
+/* line 5, ../sass/pages/rate.scss */
+.rate .rate__item--head { color: #8A8A8F; margin-bottom: 15px; }
+/* line 8, ../sass/pages/rate.scss */
+.rate .rate__item--stars .rate__star { margin-right: 10px; width: 31px; height: 31px; background: url("../images/rate.svg"); }
+/* line 13, ../sass/pages/rate.scss */
+.rate .rate__item--stars .rate__star.active { background: url("../images/rate_active.svg"); }
+
+/* line 4, ../sass/pages/amountcircle.scss */
+.selectamount.selectamount-1 .amount__circle .amountCircle { font-size: 20px; width: 65px; height: 65px; }
+/* line 14, ../sass/pages/amountcircle.scss */
+.selectamount .amount__circle { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+/* line 18, ../sass/pages/amountcircle.scss */
+.selectamount .amount__circle .amountCircle { cursor: pointer; width: 80px; height: 80px; border-radius: 50px; font-size: 24px; background: #EFEFF4; margin: 10px 5px; }
+/* line 26, ../sass/pages/amountcircle.scss */
+.selectamount .amount__circle .amountCircle.active { background: #FCB415; color: white; }
+/* line 32, ../sass/pages/amountcircle.scss */
+.selectamount .underline { font-size: 17px; }
+
+/* line 1, ../sass/pages/footer.scss */
+.footer { background: black; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; padding: 15px 0; }
+/* line 6, ../sass/pages/footer.scss */
+.footer.footer1 { background: transparent; }
+/* line 9, ../sass/pages/footer.scss */
+.footer .footer__item { margin: 10px 0; }
+/* line 12, ../sass/pages/footer.scss */
+.footer .footer__copy { color: white; font-size: 14px; font-family: "Söhne-Halbfett"; }
+/* line 17, ../sass/pages/footer.scss */
+.footer .footer__copy img { margin: 2px 6px 0px; width: 30px; height: auto; }
+/* line 22, ../sass/pages/footer.scss */
+.footer .footer__copy.footer__copy_1 { font-size: 16px; }
+/* line 27, ../sass/pages/footer.scss */
+.footer .footer__link { -ms-flex-wrap: wrap; flex-wrap: wrap; padding: 0px 50px; }
+/* line 31, ../sass/pages/footer.scss */
+.footer .footer__link .footerlink__item { color: white; padding: 0px 10px; border-right: 1px solid white; text-align: center; margin: 5px 0px; line-height: 12px; }
+/* line 40, ../sass/pages/footer.scss */
+.footer .footer__link .footerlink__item:last-child { border-right: 0px; }
+/* line 47, ../sass/pages/footer.scss */
+.footer .footer__social .footersocial__item { margin: 0px 5px; }
+/* line 49, ../sass/pages/footer.scss */
+.footer .footer__social .footersocial__item img { height: 20px; width: auto; }
+/* line 57, ../sass/pages/footer.scss */
+.footer .footer__app .footerapp__item { margin: 0px 5px; }
+/* line 59, ../sass/pages/footer.scss */
+.footer .footer__app .footerapp__item img { width: 100px; }
+
+/* line 63, ../sass/pages/footer.scss */
+.chosse { text-decoration: none; font-size: 17px; color: #3C3C3C; }
+
+/* line 3, ../sass/pages/popup.scss */
+.overlaypopup, .overlaypopup-overlay { top: 0; bottom: 0; left: 0; right: 0; z-index: 99999; }
+/* line 10, ../sass/pages/popup.scss */
+.overlaypopup.hide, .hide.overlaypopup-overlay { display: none; }
+
+/* line 15, ../sass/pages/popup.scss */
+.overlaypopup-overlay { background-color: rgba(0, 0, 0, 0.5); }
+
+/* line 20, ../sass/pages/popup.scss */
+.overlaypopup-stage { width: 650px; top: 50%; left: 50%; margin: auto; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); z-index: 999999; border-radius: 8px; overflow: hidden; }
+/* line 35, ../sass/pages/popup.scss */
+.overlaypopup-stage .overlaypopup-header, .overlaypopup-stage .overlaypopup-footer { background-color: #F8F8F8; padding: 20px; }
+/* line 41, ../sass/pages/popup.scss */
+.overlaypopup-stage .overlaypopup-header { font-weight: 600; }
+/* line 46, ../sass/pages/popup.scss */
+.overlaypopup-stage .overlaypopup-footer { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+/* line 51, ../sass/pages/popup.scss */
+.overlaypopup-stage .overlaypopup-body { background-color: white; min-height: 150px; padding: 30px; }
+
+/* line 60, ../sass/pages/popup.scss */
+.youdriver.youdriver-mob .youdriver-head { margin-bottom: 20px; }
+/* line 63, ../sass/pages/popup.scss */
+.youdriver.youdriver-mob .overlaypopup-stage { width: 730px; }
+/* line 66, ../sass/pages/popup.scss */
+.youdriver.youdriver-mob .overlaypopup-body { padding: 40px 90px !important; }
+/* line 69, ../sass/pages/popup.scss */
+.youdriver.youdriver-mob .youdriver__item { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+/* line 72, ../sass/pages/popup.scss */
+.youdriver.youdriver-mob .youdriver__detail { -ms-flex-negative: 0; flex-shrink: 0; -webkit-box-flex: 0; -ms-flex-positive: 0; flex-grow: 0; }
+/* line 78, ../sass/pages/popup.scss */
+.youdriver.youdriver-mob .youdriver__footer { margin-top: 35px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+/* line 83, ../sass/pages/popup.scss */
+.youdriver .overlaypopup-stage { width: 330px; }
+/* line 85, ../sass/pages/popup.scss */
+.youdriver .overlaypopup-stage .overlaypopup-body { padding: 15px 00px 20px 00px; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+/* line 90, ../sass/pages/popup.scss */
+.youdriver .overlaypopup-stage .overlaypopup-body .youdriver__list { max-height: 480px; min-height: 250px; overflow-y: auto; }
+/* line 98, ../sass/pages/popup.scss */
+.youdriver .youdriver-head { color: #0F60B8; text-align: center; }
+
+/* line 106, ../sass/pages/popup.scss */
+.youdriver__list .youdriver__item { padding: 15px 00px; margin: 0px 10px; border-bottom: 1px solid #ccc; }
+/* line 115, ../sass/pages/popup.scss */
+.youdriver__list .youdriver__detail { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
+/* line 119, ../sass/pages/popup.scss */
+.youdriver__list .youdriver__detail:nth-child(1) { -ms-flex-negative: 0; flex-shrink: 0; -webkit-box-flex: 0; -ms-flex-positive: 0; flex-grow: 0; }
+/* line 123, ../sass/pages/popup.scss */
+.youdriver__list .youdriver__detail img { margin-right: 10px; }
+/* line 126, ../sass/pages/popup.scss */
+.youdriver__list .youdriver__detail:nth-child(3) { margin-left: 25px; }
+/* line 130, ../sass/pages/popup.scss */
+.youdriver__list .youdriverdl { width: 91px; height: 35px; background: url("../images/dl.svg"); }
+
+/* line 137, ../sass/pages/popup.scss */
+.youdriver__footer { margin-top: 15px; }
+
+/* line 142, ../sass/pages/popup.scss */
+.chooseamount .overlaypopup-stage { max-width: 375px; width: 100%; border-radius: 0px; }
+/* line 147, ../sass/pages/popup.scss */
+.chooseamount .overlaypopup-body { padding: 15px; text-align: center; }
+/* line 150, ../sass/pages/popup.scss */
+.chooseamount .chooseamount__header { text-align: center; color: #333; font-size: 17px; }
+/* line 155, ../sass/pages/popup.scss */
+.chooseamount .chooseamount__detail { height: 60px; width: 225px; border-bottom: 1px solid #FCB415; text-align: center; display: inline-block; font-size: 40px; margin: 15px 0; }
+/* line 161, ../sass/pages/popup.scss */
+.chooseamount .chooseamount__detail > input { border: none; width: 70px; display: inline-block; min-width: 50px; text-align: left; font-size: 40px; max-width: 225px; }
+/* line 174, ../sass/pages/popup.scss */
+.chooseamount .chooseamount__footer .button { width: 100%; max-width: 300px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; border-radius: 2px; color: #808080; }
+/* line 181, ../sass/pages/popup.scss */
+.chooseamount .chooseamount__footer .button.button--third { color: #000; }
+
+/* line 189, ../sass/pages/popup.scss */
+.forgoturtip .overlaypopup-stage .overlaypopup-body { padding: 30px 00px 50px 00px; }
+/* line 192, ../sass/pages/popup.scss */
+.forgoturtip .heading-4 { font-size: 19px; }
+/* line 195, ../sass/pages/popup.scss */
+.forgoturtip .underline { text-decoration: none; color: #3C3C3C; font-size: 17px; }
+/* line 200, ../sass/pages/popup.scss */
+.forgoturtip .button--full { border: 2px solid #FCB415; background-color: white; color: #FCB415; }
+/* line 205, ../sass/pages/popup.scss */
+.forgoturtip .button--full.active { background-color: #FCB415; color: #000; }
+
+/* line 212, ../sass/pages/popup.scss */
+.paymentp .overlaypopup-body { padding: 0px; background: transparent; }
+/* line 213, ../sass/pages/popup.scss */
+.paymentp .overlaypopup-body img { width: 100%; }
+/* line 217, ../sass/pages/popup.scss */
+.paymentp .overlaypopup-stage { width: auto; }
+@media (max-width: 480px) { /* line 217, ../sass/pages/popup.scss */
+  .paymentp .overlaypopup-stage { width: 90%; } }
+
+/*# sourceMappingURL=main.css.map */
+
+.overlaypopup.chooseamount {
+  z-index: 999999;
+}
