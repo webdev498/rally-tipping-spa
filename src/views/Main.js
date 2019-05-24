@@ -16,12 +16,12 @@ const Main = {
                 disabled: (model.driver && model.rate.score > 0 ? false : true),
                 onclick: evt => {
                     if (model.tip > 0)
-                        actions.toggleThankYouModal(true)
+                        actions.togglePaymentModal(true)
                     else
                         actions.toggleForgotTipModal(true)
                 }
             }, 'Send')),
-            // m("pre", JSON.stringify(model, null, 4))
+            m("pre", JSON.stringify(model, null, 4))
         ])
     )
 };

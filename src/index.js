@@ -7,6 +7,7 @@ import Footer from './views/Footer';
 import DriverModal from './views/modal/DriverModal';
 import TipModal from './views/modal/TipModal';
 import ForgotTipModal from "./views/modal/ForgotTipModal";
+import PaymentModal from "./views/modal/PaymentModal";
 import ThankYouModal from "./views/modal/ThankYouModal";
 
 import Driver from './models/Driver';
@@ -59,8 +60,9 @@ var view = (function () {
             vwFooter(), 
             model.showDriverModal && vwDriverModal(model, actions),
             model.showTipModal && vwTipModal(model, actions),
+            model.showForgotTipModal && vwForgotTipModal(model, actions),
+            model.showPaymentModal && vwPaymentModal(model, actions),
             model.showThankYouModal && vwThankYouModal(model, actions),
-            model.showForgotTipModal && vwForgotTipModal(model, actions)
         )
     }
 
@@ -84,12 +86,16 @@ var view = (function () {
         return m(TipModal, { model, actions });
     }
 
-    function vwThankYouModal(model, actions) {
-        return m(ThankYouModal, { model, actions });
-    }
-
     function vwForgotTipModal(model, actions) {
         return m(ForgotTipModal, { model, actions });
+    }
+
+    function vwPaymentModal(model, actions) {
+        return m(PaymentModal, { model, actions });
+    }
+
+    function vwThankYouModal(model, actions) {
+        return m(ThankYouModal, { model, actions });
     }
 
     return view

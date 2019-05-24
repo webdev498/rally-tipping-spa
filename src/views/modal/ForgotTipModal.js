@@ -28,12 +28,21 @@ const ForgotTipModal = {
                             ))),
                             m(Space),
                             m('.selectamount__item', 
-                                m('.label-2 align-center', 
+                                m('.label-2 align-center', [
+                                    m('a', {
+                                        class: 'underline',
+                                        onclick: evt => { 
+                                            model.tip = 0;
+                                            actions.toggleForgotTipModal(false);
+                                            actions.toggleThankYouModal(true); 
+                                        }
+                                    }, 'No Tip'),
+                                    ' | ',
                                     m('a', {
                                         class: 'underline',
                                         onclick: evt => actions.toggleTipModal(true) 
                                     }, 'Choose other amount')
-                                )
+                                ])
                             ),
                             m(Space),
                             m(Space),
@@ -44,7 +53,7 @@ const ForgotTipModal = {
                                     if (model.tip > 0) {
                                         actions.toggleForgotTipModal(false)
                                     }
-                                    actions.toggleThankYouModal(true)
+                                    actions.togglePaymentModal(true)
                                 }
                             }, 'Send')),
                         ])

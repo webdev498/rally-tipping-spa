@@ -371,7 +371,7 @@ select::-ms-expand { display: none; }
 /* line 155, ../sass/pages/popup.scss */
 .chooseamount .chooseamount__detail { height: 60px; width: 225px; border-bottom: 1px solid #FCB415; text-align: center; display: inline-block; font-size: 40px; margin: 15px 0; }
 /* line 161, ../sass/pages/popup.scss */
-.chooseamount .chooseamount__detail > input { border: none; width: 70px; display: inline-block; min-width: 50px; text-align: left; font-size: 40px; max-width: 225px; }
+.chooseamount .chooseamount__detail > input { border: none; width: 90px; display: inline-block; min-width: 50px; text-align: left; font-size: 40px; max-width: 225px; }
 /* line 174, ../sass/pages/popup.scss */
 .chooseamount .chooseamount__footer .button { width: 100%; max-width: 300px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; border-radius: 2px; color: #808080; }
 /* line 181, ../sass/pages/popup.scss */

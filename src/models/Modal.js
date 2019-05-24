@@ -3,9 +3,9 @@ const Modal = {
 		return {
             showDriverModal: false,
             showTipModal: false,
-			showThankYouModal: false,
-            showForgotTipModal: false
-			
+			showForgotTipModal: false,
+			showPaymentModal: false,
+			showThankYouModal: false,			
 		};
 	},
 	Actions: function (update) {
@@ -22,18 +22,24 @@ const Modal = {
 					return model;
 				});
 			},
-            toggleThankYouModal: function(value) {
-                update(model => {
-                    model.showThankYouModal = value;
-                    return model;
-                });
-            },
             toggleForgotTipModal: function(value) {
                 update(model => {
                     model.showForgotTipModal = value;
                     return model;
                 });
-            }
+			},
+			togglePaymentModal: function(value) {
+                update(model => {
+                    model.showPaymentModal = value;
+                    return model;
+                });
+			},
+			toggleThankYouModal: function(value) {
+                update(model => {
+                    model.showThankYouModal = value;
+                    return model;
+                });
+            },
 		};
 	}
 };

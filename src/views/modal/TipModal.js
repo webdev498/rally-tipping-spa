@@ -13,12 +13,20 @@ const TipModal = {
                     m('.chooseamount__detail', [
                         '$',
                         m('input', {
-                            type: 'number', 
-                            min: '1', 
-                            max: '99', 
+                            type: 'text',
                             class: 'other-tip-amount', 
                             onkeyup: evt => otherAmount = evt.target.value,
-                            onchange: evt => otherAmount = evt.target.value 
+                            onchange: evt => otherAmount = evt.target.value,
+                            onkeypress: evt => {
+                                if (evt.target.value.length > 2)
+                                    return false;
+
+                                var charCode = (evt.which) ? evt.which : event.keyCode
+                                if (charCode > 31 && (charCode < 48 || charCode > 57))
+                                    return false;
+
+                                return true;
+                            }
                         })
                     ]),
                     m(Space),
