@@ -21,7 +21,7 @@ const Main = {
                         actions.toggleForgotTipModal(true)
                 }
             }, 'Send')),
-            m("pre", JSON.stringify(model, null, 4))
+            // m("pre", JSON.stringify(model, null, 4))
         ])
     )
 };
