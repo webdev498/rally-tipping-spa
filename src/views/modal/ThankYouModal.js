@@ -12,7 +12,10 @@ const ThankYouModal = {
                         m('span', 'you!')
                     ]),
                     m(Space),
-                    m('div', {class: 'heading-4'}, 'Your tip has been sent to your driver.'),
+                    m('div', 
+                        {class: 'heading-4'}, 
+                        model.tip > 0 ? 'Your tip has been sent to your driver.' : 'We appreciate your feedback.'
+                    ),
                     m('.selectamount', [
                         m(Space),
                         m(Space),

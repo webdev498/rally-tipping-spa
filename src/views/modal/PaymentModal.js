@@ -9,7 +9,7 @@ const PaymentModal = {
                 m('.overlaypopup-body', [
                     m('div', {class: 'heading center'}, 'Payment'),
                     m(Space),
-                    m('div', {class: 'heading-4'}, 'Your tip will be sent to your driver.'),
+                    m('div', {class: 'heading-4'}, 'Please select a payment option.'),
                     m(Space),
                     m('.center', m('button', {
                         class: 'button button--full active',
